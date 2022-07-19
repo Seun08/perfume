@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: palegoldenrod;
+    display: grid;
+    padding: 70px;
+    grid-template-areas: 
+    'a b'
+    'a b'
+    'a b';
+}
+.box-a img{
+    grid-area: a;
+    width:110%;
+    height: 500px;
+    border-bottom-left-radius: 0.4em;
+    border-top-left-radius: 0.4em;
+
+}
+.box-b{
+    grid-area: b;
+    background-color: aliceblue;
+    width:30%;
+    height: 460px;
+    padding: 20px;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+
+}
+.box-b h1{
+    line-height:25px;
+}
+.box-b .card h1{
+    color: #2E8B57;
+}
+.box-b .card button{
+    background: #2E8B57;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    border-radius: 1em;
+}
