@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 main{
-    background-color: palegoldenrod;
+    background-color:hsl(30,38%,37%)
     display: grid;
     padding: 70px;
     grid-template-areas: 
